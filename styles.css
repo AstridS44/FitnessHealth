@@ -3,3 +3,47 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #411d73;
+  font-weight: 800;
+}
+nav img {
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+nav ul li:hover {
+  color: #ba49e8;
+}
+
+.servicios {
+  width: 40%;
+}
+.registro {
+  width: 25%;
+  align-items: center;
+}
+
+#reg {
+  width: 20px;
+  color: #ba49e8;
+}
