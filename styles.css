@@ -142,18 +142,19 @@ article {
 }
 .ser1 h2 {
   align-self: baseline;
-  width: 45%;
+  width: 50%;
   color: #411d73;
   font-size: 35px;
   z-index: 0;
 }
 .ser1 p {
   align-self: flex-end;
-  width: 80%;
+  width: 60%;
   text-align: right;
   font-size: 25px;
   z-index: 2;
   margin-left: 20px;
+  padding-left: 30px;
 }
 
 .ser2 {
@@ -203,7 +204,7 @@ article {
   align-items: center;
   gap: 30px;
   margin: 100px auto;
-  height: 400px;
+  height: 500px;
   min-width: 790px;
   background: linear-gradient(0deg, #a79bf2, #fff);
   padding: 20px 30px 20px 20px;
@@ -247,4 +248,60 @@ article {
 .prueba1 button:hover {
   background-color: #411d73;
   box-shadow: 1px 1px 20px #411d7348;
+}
+
+.Gratis form {
+  width: 80%;
+  height: auto;
+  background-color: #a79bf2;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.Gratis form input {
+  width: 80%;
+  padding: 10px;
+  color: #411d73;
+  font-size: 18px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid #a79bf2;
+}
+
+.Gratis form button {
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #411d73;
+  border: 0px solid;
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 300px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Gratis form button:hover {
+  background-color: #aa38d8;
+  box-shadow: 1px 1px 20px #411d7348;
+}
+
+.Gratis form h2 {
+  color: #aa38d8;
+  font-size: 35px;
+  font-weight: 900;
+}
+.Gratis form p {
+  color: #fff;
+  font-size: 23px;
+}
+.Gratis form ::placeholder {
+  color: rgb(167, 167, 167);
+  font-size: 18px;
+}
+
+.Gratis form h3 {
+  font-size: 27px;
 }
