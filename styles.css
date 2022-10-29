@@ -521,17 +521,20 @@ footer ul li a:hover {
     width: 100%;
     margin: 10px auto;
     min-width: auto;
-    height: 738px;
+    height: 820px;
   }
 
   .comentarios {
     position: absolute;
     /*  z-index: 2;*/
     text-align: left;
-    width: 40%;
-    margin: 0px auto;
+    margin: 0px 20px;
+    width: 400px;
   }
 
+  /*.comentarios > ul {
+    margin: 0px auto;
+  }*/
   .bienvenida {
     position: relative;
     width: 400px;
@@ -566,5 +569,86 @@ footer ul li a:hover {
 
   .texto {
     width: 50%;
+  }
+
+  .ser1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .ser1 h2 {
+    align-self: center;
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+  }
+  .ser1 p {
+    align-self: center;
+    width: 400px;
+    text-align: left;
+    margin: 0px auto;
+    padding: 0px;
+  }
+  .ser2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0px auto;
+  }
+  .ser2 div {
+    width: 340px;
+    margin: 10px auto;
+  }
+
+  article {
+    margin: 50px auto;
+  }
+
+  .probar {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    height: auto;
+    min-width: 0px;
+    text-align: center;
+  }
+
+  .probar div {
+    width: 400px;
+    margin: 10px 0px 0px 40px;
+  }
+
+  .probar div video {
+    box-shadow: 1px 1px 20px #411d7348;
+  }
+  .probar div img {
+    width: 40%;
+  }
+
+  .planes {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .planes div {
+    width: 400px;
+    padding-left: 40px;
+    margin: 0px auto;
+  }
+  .planes ul {
+    height: 280px;
+  }
+  .secciones {
+    justify-content: center;
+    align-items: stretch;
+    text-align: left;
+    gap: 5px;
+  }
+
+  footer img {
+    margin-top: 20px;
+    width: 200px;
   }
 }
